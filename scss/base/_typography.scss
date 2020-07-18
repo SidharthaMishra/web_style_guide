@@ -21,14 +21,16 @@ a {
 /*              Typography                       */
 /* ============================================= */
 
-.headline-primary {
-    color: $color-primary;
-    margin-left: 10px;
-}
+.headline {
+    &-primary {
+        color: $color-primary;
+        margin-left: 10px;
+    }
 
-.headline-secondary {
-    font-weight: $font-light;
-    color: $color-text;
+    &-secondary {
+        font-weight: $font-light;
+        color: $color-text;
+    }
 }
 
 .link {
