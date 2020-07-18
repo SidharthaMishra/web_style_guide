@@ -24,7 +24,14 @@ $color-medium-blue: #4da2bb;
 /* ============================================= */
 /*              Font Properties                       */
 /* ============================================= */
-$font-stack-primary: 'Lato', sans-serif;
+$font-stack-primary: 'Lato',
+sans-serif;
 $color-text: #777;
 $font-light: 300;
 $font-normal: 700;
+
+
+/* ============================================= */
+/*              Media Queries                       */
+/* ============================================= */
+$breakpoint-med:758px;
