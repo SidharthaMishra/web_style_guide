@@ -1,3 +1,11 @@
+//Centered Block
+@mixin centered-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 //Button Hover Effect - lighten background color by 15%;
 @mixin btn-hover($bgcolor) {
     &:hover {
