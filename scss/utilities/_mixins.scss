@@ -1,7 +1,15 @@
+//Button Hover Effect - lighten background color by 15%;
+@mixin btn-hover($bgcolor) {
+    &:hover {
+        background-color: lighten($bgcolor, 15%);
+        cursor: pointer;
+    }
+}
+
 //Media Queries
 
-@mixin mq($breakpoint){
-    @media (min-width:$breakpoint){
+@mixin mq($breakpoint) {
+    @media (min-width:$breakpoint) {
         @content;
     }
 }
