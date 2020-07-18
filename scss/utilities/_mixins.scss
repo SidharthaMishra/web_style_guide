@@ -1,0 +1,7 @@
+//Media Queries
+
+@mixin mq($breakpoint){
+    @media (min-width:$breakpoint){
+        @content;
+    }
+}
